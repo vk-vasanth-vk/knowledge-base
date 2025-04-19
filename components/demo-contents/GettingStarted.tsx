@@ -1,96 +1,112 @@
 import React from "react";
 
-const BeginnerGuide = () => {
+const TechnicalWritingArticle = () => {
   return (
     <div className="flex-1 border ml-10 p-10 bg-white rounded-lg">
-      <div className="max-w-3xl mx-auto p-6 text-gray-800">
-        <h1 className="text-3xl font-bold mb-4">
-          The Beginner’s Guide to Kovai
+      <div className="max-w-4xl mx-auto px-6 py-6 text-gray-800">
+        <h1 className="text-4xl font-bold mb-4">
+          The Importance of Technical Writing
         </h1>
-
-        <p className="mb-6">
-          Welcome to KovaiBase! This guide will walk you through the essentials
-          of getting started with our platform. Whether you&apos;re here to manage
-          your team, streamline communication, or build your knowledge base,
-          this guide is for you.
+        <p className="text-lg text-gray-600 mb-8">
+          Technical writing plays a pivotal role in shaping how users
+          understand, adopt, and engage with a product. In enterprise
+          environments, where products are increasingly complex and user
+          expectations are high, clear and effective documentation is not a
+          luxury—it&apos;s a necessity.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-3">What is KovaiBase?</h2>
-        <p className="mb-4">
-          KovaiBase is a collaborative knowledge base platform designed for
-          support teams, product teams, and SaaS companies. It allows you to
-          manage internal documentation, share customer-facing help articles,
-          and keep your content organized.
-        </p>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-3">Getting Around</h2>
-        <ul className="list-disc pl-6 mb-4">
-          <li>
-            <strong>Dashboard:</strong> Your main hub for recent activity and
-            quick links.
-          </li>
-          <li>
-            <strong>Categories:</strong> Organize content by topics like
-            Account, Billing, or Features.
-          </li>
-          <li>
-            <strong>Search:</strong> Quickly find answers or documentation using
-            the search bar.
-          </li>
-        </ul>
-
-        <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6 rounded">
-          <p className="text-blue-700 font-medium">
-            💡 Tip: You can pin important articles to the top of a category for
-            quick access.
+        <section className="mb-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Why Technical Writing Matters
+          </h2>
+          <p className="text-gray-700">
+            Whether it's onboarding new users, assisting customer support, or
+            enabling teams to work with APIs, well-written documentation acts as
+            an extension of the product itself. A strong knowledge base reduces
+            support tickets, increases user confidence, and builds long-term
+            trust with your customer base.
           </p>
-        </div>
+        </section>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-3">
-          Creating Your First Article
-        </h2>
-        <p className="mb-4">
-          To create your first article, click the{" "}
-          <code className="bg-gray-200 px-2 py-1 rounded">New Article</code>{" "}
-          button, select a category, and begin typing. You can add images,
-          videos, and even embed code snippets.
-        </p>
+        <section className="mb-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Principles of Effective Technical Content
+          </h2>
+          <ul className="list-disc list-inside text-gray-700 space-y-2">
+            <li>
+              <strong>Clarity:</strong> Use precise language and avoid jargon
+              unless it's well-defined.
+            </li>
+            <li>
+              <strong>Structure:</strong> Organize content with headings,
+              subheadings, and bulleted steps.
+            </li>
+            <li>
+              <strong>Consistency:</strong> Maintain consistent tone,
+              formatting, and terminology throughout.
+            </li>
+            <li>
+              <strong>Accuracy:</strong> Every detail—from instructions to
+              examples—should reflect the actual product.
+            </li>
+            <li>
+              <strong>Accessibility:</strong> Write with all users in mind,
+              including non-native English speakers and beginners.
+            </li>
+          </ul>
+        </section>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-3">
-          Collaborating with Your Team
-        </h2>
-        <p className="mb-4">
-          KovaiBase supports real-time collaboration. Invite your teammates,
-          assign roles, and track article version history to ensure everything
-          stays updated and accurate.
-        </p>
+        <section className="mb-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Nuances of Technical Writing
+          </h2>
+          <p className="text-gray-700">
+            Enterprise documentation must balance technical depth with business
+            clarity. Articles should cater to both developers looking for
+            precision and stakeholders seeking overviews. Understanding the
+            audience, their roles, and their goals is vital in tailoring
+            effective communication.
+          </p>
+        </section>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-3">Next Steps</h2>
-        <ul className="list-disc pl-6 mb-8">
-          <li>
-            Check out the{" "}
-            <a href="#" className="text-blue-600 hover:underline">
-              Quick Start Guide
-            </a>
-          </li>
-          <li>
-            Explore our{" "}
-            <a href="#" className="text-blue-600 hover:underline">
-              Product Features
-            </a>
-          </li>
-          <li>
-            Need help?{" "}
-            <a href="#" className="text-blue-600 hover:underline">
-              Contact Support
-            </a>
-          </li>
-        </ul>
+        <section className="mb-10">
+          <h2 className="text-2xl font-semibold mb-3">
+            Best Practices for Authoring
+          </h2>
+          <ul className="list-disc list-inside text-gray-700 space-y-2">
+            <li>
+              Use visuals or examples when words fall short—diagrams, tables,
+              and code snippets aid comprehension.
+            </li>
+            <li>
+              Follow a voice and tone guide to ensure brand consistency across
+              all documentation.
+            </li>
+            <li>
+              Review and revise regularly—great documentation evolves alongside
+              the product.
+            </li>
+            <li>
+              Link related content to create a connected knowledge journey.
+            </li>
+          </ul>
+        </section>
 
-        <p className="text-sm text-gray-500">Updated on April 18, 2025</p>
+        <section className="mb-10">
+          <h2 className="text-2xl font-semibold mb-3">Final Thoughts</h2>
+          <p className="text-gray-700">
+            Great technical writing is invisible when done right—it feels
+            natural, intuitive, and helpful. It quietly drives product adoption,
+            reduces support burden, and empowers users to get things done. At
+            KovaiBase, our approach to technical content reflects our commitment
+            to usability, clarity, and customer success.
+          </p>
+        </section>
+
+        <p className="text-sm text-gray-500">Last updated on April 19, 2025</p>
       </div>
     </div>
   );
 };
 
-export default BeginnerGuide;
+export default TechnicalWritingArticle;
