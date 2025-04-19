@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import BeginnerGuide from "./demo-contents/GettingStarted";
+import TechnicalWritingArticle from "./demo-contents/GettingStarted";
 
 interface ContentAreaProps {
   title: string;
@@ -17,7 +17,7 @@ const ContentArea = ({ title, description, resources }: ContentAreaProps) => {
   };
 
   if (showContent) {
-    return <BeginnerGuide />
+    return <TechnicalWritingArticle />;
   }
 
   return (
