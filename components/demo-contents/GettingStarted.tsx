@@ -20,7 +20,7 @@ const TechnicalWritingArticle = () => {
             Why Technical Writing Matters
           </h2>
           <p className="text-gray-700">
-            Whether it's onboarding new users, assisting customer support, or
+            Whether it&apos;s onboarding new users, assisting customer support, or
             enabling teams to work with APIs, well-written documentation acts as
             an extension of the product itself. A strong knowledge base reduces
             support tickets, increases user confidence, and builds long-term
@@ -35,7 +35,7 @@ const TechnicalWritingArticle = () => {
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             <li>
               <strong>Clarity:</strong> Use precise language and avoid jargon
-              unless it's well-defined.
+              unless it&apos;s well-defined.
             </li>
             <li>
               <strong>Structure:</strong> Organize content with headings,
